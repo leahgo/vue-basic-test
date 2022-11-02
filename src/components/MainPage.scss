@@ -1,0 +1,39 @@
+/* override browser default */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    .aos-init.aos-animate {
+        transition-duration: 1s;
+    }
+    .div1{
+        height: 100vh;
+        width: 100vw;
+        align-content: center;
+        justify-content: center;
+        display: grid;
+        h1{
+            height: 100%;
+            width: 100%;
+            color:white;
+        }
+    }
+    .div2{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        h2{
+            color:white;
+        }
+    }
+}
